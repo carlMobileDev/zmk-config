@@ -1,0 +1,31 @@
+[general]
+default_view = "focus"
+editor = "nvim"
+
+[statuses]
+order = [
+    "inbox",
+    "ready",
+    "active",
+    "done",
+    "archived",
+]
+default = "inbox"
+
+[priorities]
+order = [
+    "p0",
+    "p1",
+    "p2",
+    "p3",
+]
+default = "p2"
+
+[branch]
+pattern = "task/{id}-{slug}"
+
+[agent_copy]
+include_related_files = true
+
+[internal]
+next_task_id = 1
