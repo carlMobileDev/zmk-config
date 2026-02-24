@@ -6,8 +6,8 @@
 
 // Define layer numbers
 #define BASE 0
-#define LOWER 1
-#define RAISE 2
+#define RAISE 1
+#define LOWER 2
 
 // ZMK includes
 #include <behaviors.dtsi>
